@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="MainMenuButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="SubmitRuleButton" parent="MainMenuButton">
+    </style>
+    
+    <style name="BottomBarButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#00FFFFFF</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="TableRowStyle">
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TitleBarStyle">
+        <item name="android:background">@drawable/headerbackground</item>
+    </style>
+
+    <style name="DrinkRulesTheme" parent="android:Theme.Light">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:windowTitleBackgroundStyle">@style/TitleBarStyle</item>
+        <item name="android:windowTitleSize">88dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="SubMenuTheme" parent="android:Theme.Light">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:windowTitleBackgroundStyle">@style/TitleBarStyle</item>
+        <item name="android:windowTitleSize">42dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>

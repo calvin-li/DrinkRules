@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/txtHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="#00000000"
+            android:autoText="false"
+            android:layout_centerInParent="true"
+            android:text="My Rules"
+            android:layout_alignParentEnd="false"
+            android:maxLines="2"
+            android:layout_toLeftOf="@+id/faveButton"
+            android:layout_toRightOf="@+id/leftPadding"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"/>
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/faveButton"
+            android:layout_weight="0"
+            android:src="@drawable/icon_addfavorite"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:layout_gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:padding="16dp"/>
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/leftPadding"
+            android:layout_weight="0"
+            android:src="@drawable/icon_addfavorite"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:layout_gravity="center_vertical"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:padding="16dp"/>
+
+</RelativeLayout>

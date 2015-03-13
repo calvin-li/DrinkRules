@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DrinkRules</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main00">DROP THE DIME</string>
+    <string name="main01">FLIP CUP</string>
+    <string name="main02">TV/MOVIES</string>
+    <string name="main10">KINGS</string>
+    <string name="main11">CARDS</string>
+    <string name="main12">BEER BOMB</string>
+    <string name="main20">QUARTERS</string>
+    <string name="main21">POWERHOUR</string>
+    <string name="main22">BEER PONG</string>
+    <string name="my_rules">My Rules</string>
+    <string name="submit_rule">Submit Rule</string>
+    <string name="search">Search</string>
+    <string name="rate">Rate</string>
+    <string name="title">Rulebook: Drinking Games</string>
+    <string name="share">share button</string>
+    <string name="info">Legal disclaimer</string>
+    <string name="footerR">&quot;R&quot; at bottom center</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_submit_rule">SubmitRuleActivity</string>
+    <string name="title_activity_sub_menu">Sign in</string>
+    <string name="email">Email</string>
+    <string name="tweet">Tweet</string>
+    <string name="cancel">Cancel</string>
+    <string name="popUpString">Pop Up Button</string>
+
+</resources>

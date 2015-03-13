@@ -1,0 +1,94 @@
+{
+    "Kings":[
+         {"Title":"King's Cup","File":"kingscup","Icon":"icon_Kings"},
+         {"Title":"King's Cup Variants","File":"kingscupvariants","Icon":"icon_Kings"}
+         ],
+    "Beer Pong":[
+         {"Title":"3D Beer Pong","File":"3dbeerpong","Icon":"icon_BeerPong"},
+         {"Title":"A School in Lafayette","File":"ASchoolinLafayette","Icon":"icon_BeerPong"},
+         {"Title":"Bounce Pong","File":"BouncePong","Icon":"icon_BeerPong"},
+         {"Title":"Central PA Rules","File":"CentralPARules","Icon":"icon_BeerPong"},
+         {"Title":"Cleveland, Ohio (Bucha)","File":"ClevelandOhio","Icon":"icon_BeerPong"},
+         {"Title":"Cockeysville Rules","File":"CockeysvilleRules","Icon":"icon_BeerPong"},
+         {"Title":"Connecticut School Rules","File":"ConnecticutSchool","Icon":"icon_BeerPong"},
+         {"Title":"Danforth Lane Rules","File":"DanforthLaneRules","Icon":"icon_BeerPong"},
+         {"Title":"Navy Sub Rules","File":"NavySubRules","Icon":"icon_BeerPong"},
+         {"Title":"Philly Style","File":"PhillyStyle","Icon":"icon_BeerPong"},
+         {"Title":"Triangle Beer Pong","File":"TriangleBeerPong","Icon":"icon_BeerPong"},
+         {"Title":"Vermont School Rules","File":"VermontSchoolRules","Icon":"icon_BeerPong"},
+         {"Title":"Virginia Rules","File":"virginiaschoolrules","Icon":"icon_BeerPong"},
+         {"Title":"West Coast Rules","File":"WestCoastRules","Icon":"icon_BeerPong"},
+         {"Title":"West Virginia Rules","File":"WestVirginiaRules","Icon":"icon_BeerPong"}
+         ],
+    "Cards":[{"Title":"Across the Bridge","File":"acrossthebridge","Icon":"icon_Cards"},
+         {"Title":"Angel Jacks","File":"angeljacks","Icon":"icon_Cards"},
+         {"Title":"Arizona Kings","File":"arizonakings","Icon":"icon_Cards"},
+         {"Title":"Beat the Dealer","File":"beatthedealer","Icon":"icon_Cards"},
+         {"Title":"Clocks","File":"clocks","Icon":"icon_Cards"},
+         {"Title":"Cops and Robbers","File":"copsandrobbers","Icon":"icon_Cards"},
+         {"Title":"Drunken Hold Em'","File":"drunkenholdem","Icon":"icon_Cards"},
+         {"Title":"F*** the Dealer","File":"fthedealer","Icon":"icon_Cards"},
+         {"Title":"Gauntlet","File":"gauntlet","Icon":"icon_Cards"},
+         {"Title":"Go Fish","File":"gofish","Icon":"icon_Cards"},
+         {"Title":"Hi-Lo","File":"hilo","Icon":"icon_Cards"},
+         {"Title":"Horse Race","File":"horserace","Icon":"icon_Cards"},
+         {"Title":"Jail","File":"jail","Icon":"icon_Cards"},
+         {"Title":"Markey","File":"markey","Icon":"icon_Cards"},
+         {"Title":"Master Rhymes","File":"masterrhymes","Icon":"icon_Cards"},
+         {"Title":"Potluck","File":"potluck","Icon":"icon_Cards"},
+         {"Title":"Presidents","File":"presidents","Icon":"icon_Cards"},
+         {"Title":"Queens","File":"queens","Icon":"icon_Cards"},
+         {"Title":"Shazam","File":"shazam","Icon":"icon_Cards"},
+         {"Title":"Skins","File":"skins","Icon":"icon_Cards"},
+         {"Title":"Speed Bump","File":"speedbump","Icon":"icon_Cards"},
+         {"Title":"Spoons","File":"spoons","Icon":"icon_Cards"},
+         {"Title":"Trap","File":"trap","Icon":"icon_Cards"},
+         {"Title":"Uno Consumo","File":"unoconsumo","Icon":"icon_Cards"}
+         ],
+    "Drop the Dime":[
+         {"Title":"Drop the Dime","File":"DroptheDime","Icon":"icon_DropDime"}
+         ],
+    "Beer Bomb":[
+         {"Title":"Beer Bomb","File":"BeerBomb","Icon":"icon_BeerBomb"}
+         ],
+    "Flip Cup":[
+         {"Title":"Flip Cup","File":"FlipCup","Icon":"icon_FlipCup"},
+         {"Title":"World Series of Flip Cup","File":"worldseriesflipcup","Icon":"icon_FlipCup"}
+         ],
+    "Quarters":[{"Title":"Anchorman","File":"anchorman","Icon":"icon_Quarters"},
+         {"Title":"Battleships","File":"battleships","Icon":"icon_Quarters"},
+         {"Title":"Chandeliers","File":"chandeliers","Icon":"icon_Quarters"},
+         {"Title":"Landmines","File":"landmines","Icon":"icon_Quarters"},
+         {"Title":"Moose","File":"Moose","Icon":"icon_Quarters"},
+         {"Title":"Quarters","File":"quarters","Icon":"icon_Quarters"},
+         {"Title":"Quarters Volleyball","File":"quartersvolleyball","Icon":"icon_Quarters"},
+         {"Title":"Speed Quarters","File":"speedquarters","Icon":"icon_Quarters"},
+         {"Title":"Stop the Quarter","File":"stopthequarter","Icon":"icon_Quarters"}],
+    "TV/Movies":[
+         {"Title":"A Christmas Story","File":"achristmasstory","Icon":"icon_TVMovies"},
+         {"Title":"Always Sunny in Philadel...","File":"alwayssunnyinphiladelphia","Icon":"icon_TVMovies"},
+         {"Title":"BeerFest","File":"beerfest","Icon":"icon_TVMovies"},
+         {"Title":"Dazed and Confused","File":"dazedandconfused","Icon":"icon_TVMovies"},
+         {"Title":"Die Hard","File":"diehard","Icon":"icon_TVMovies"},
+         {"Title":"Donnie Darko","File":"donniedarko","Icon":"icon_TVMovies"},
+         {"Title":"Family Guy","File":"familyguy","Icon":"icon_TVMovies"},
+         {"Title":"Fear and Loathing in Las Vegas","File":"fearandloathinginlasvegas","Icon":"icon_TVMovies"},
+         {"Title":"Futurama","File":"futurama","Icon":"icon_TVMovies"},
+         {"Title":"Happy Gilmore","File":"happygillmore","Icon":"icon_TVMovies"},
+         {"Title":"Indiana Jones","File":"indianajones","Icon":"icon_TVMovies"},
+         {"Title":"Lord of the Rings","File":"lordoftherings","Icon":"icon_TVMovies"},
+         {"Title":"Napolean Dynamite","File":"napoleandynamite","Icon":"icon_TVMovies"},
+         {"Title":"Reservoir Dogs","File":"resorvoirdogs","Icon":"icon_TVMovies"},
+         {"Title":"Scrubs","File":"scrubs","Icon":"icon_TVMovies"},
+         {"Title":"Star Wars","File":"starwars","Icon":"icon_TVMovies"},
+         {"Title":"Super Troopers","File":"supertroopers","Icon":"icon_TVMovies"},
+         {"Title":"The Big Lebowski","File":"thebiglebowski","Icon":"icon_TVMovies"},
+         {"Title":"The Hangover","File":"thehangover","Icon":"icon_TVMovies"},
+         {"Title":"The Shining","File":"theshining","Icon":"icon_TVMovies"},
+         {"Title":"The Simpsons","File":"thesimpsons","Icon":"icon_TVMovies"},
+         {"Title":"Vacation","File":"vacation","Icon":"icon_TVMovies"}
+         ],
+    "Power Hour":[
+         {"Title":"Power Hour","File":"powerhour","Icon":"icon_PowerHour"}
+         ]
+}

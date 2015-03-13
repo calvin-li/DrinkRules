@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:background="@drawable/submitrulepage"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SubmitRuleActivity" >
+
+    <LinearLayout
+        android:id="@+id/above_filler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7" />
+    
+    <LinearLayout
+     	android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageButton
+            android:id="@+id/submitEmail"
+            style="@style/SubmitRuleButton"
+            android:contentDescription="@string/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iconemail" />
+
+        <ImageButton
+            android:id="@+id/submitTweet"
+            style="@style/SubmitRuleButton"
+            android:contentDescription="@string/tweet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icontweet" />
+
+        <ImageButton
+            android:id="@+id/submitCancel"
+            style="@style/SubmitRuleButton"
+            android:contentDescription="@string/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iconcancel" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/below_filler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4" />
+    
+</LinearLayout>

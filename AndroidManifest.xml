@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.drinkrules"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:backupAgent="BackupAgent"
+        android:theme="@style/DrinkRulesTheme" >
+        <meta-data
+                android:name="com.google.android.backup.api_key"
+                android:value="AEdPqrEAAAAIsajiNXqRl1f1BnlI9zNHjSwcDKWXwQNDa3bYfQ" />
+        <activity
+			android:windowSoftInputMode="adjustPan|stateHidden"
+            android:name="com.example.drinkrules.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.drinkrules.SubMenuActivity"
+            android:label="@string/title_activity_sub_menu"
+            android:theme="@style/SubMenuTheme"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.example.drinkrules.RulesPage"
+            android:label="RulesPage" >
+        </activity>
+        <activity
+            android:name="com.example.drinkrules.InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name="com.example.drinkrules.SubmitRuleActivity"
+            android:screenOrientation="portrait" 
+            android:label="@string/title_activity_submit_rule" >
+        </activity>
+        <activity
+            android:name=".MyRulesActivity"
+            android:theme="@style/SubMenuTheme" >
+         </activity>
+    </application>
+
+</manifest>
